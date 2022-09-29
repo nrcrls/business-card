@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  margin-top: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +11,85 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 4px;
+  overflow: hidden
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 4px;
+  overflow: hidden
+}
+
+.headshot {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-name,
+.card-jobtitle {
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin: 10px;
+  padding: 16px;
+  border-radius: 7px;
+  border: none;
+  background-color: #C3ACCE;
+}
+
+.btn-img {
+  font-size: medium;
+}
+
+.btn-text {
+  margin-left: 2px;
+  font-size: medium;
+  text-align: center;
+}
+
+.section-about {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 4px;
+  text-align: justify;
+}
+
+.section-header {
+  margin-bottom: 2px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+ul li {
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 40px;
 }
