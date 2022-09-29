@@ -55,6 +55,7 @@ body {
   border-radius: 7px;
   border: none;
   background-color: #C3ACCE;
+  cursor: pointer;
 }
 
 .btn-img {
@@ -92,4 +93,5 @@ ul li {
   margin-top: 40px;
   padding: 5px;
   font-size: 40px;
+  cursor: pointer;
 }
